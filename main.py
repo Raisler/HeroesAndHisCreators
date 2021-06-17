@@ -26,7 +26,7 @@ def predict(story: Story):
     return {'prediction':prediction}
 
 
-@app.get("/hello-world")
+@app.get("/")
 def hello_world():
     """
     Returns Hello World
